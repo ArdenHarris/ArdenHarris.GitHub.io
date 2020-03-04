@@ -1,0 +1,37 @@
+* {
+box-sizing: border-box;
+}
+			
+.row {
+content: "";
+display: table;
+clear: both;}
+			
+.columnLeft{
+float: left;
+width: 25%;
+padding: 20px;}
+			
+.columnRight {
+float: left;
+width: 75%;
+padding: 20px;}
+		
+ul.nav {
+	list-style-type: none;
+	background-color: green;
+	margin: 0;
+	padding: 0;
+	overflow: hidden; }
+	
+li a {
+	float: left;
+	display: block;
+	color: pink;
+	padding: 8px 16px;
+	text-align: left;  }
+
+li a:hover {
+	background-color: purple;
+	color: white; }
+
